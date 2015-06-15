@@ -1,0 +1,278 @@
+body {
+  font-family: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  background-color: #f8f8f8;
+}
+
+.header-style {
+  padding-left: 3px;
+  font-weight: 200;
+  letter-spacing: 3px;
+  font-size: 34px;
+}
+
+#login-btn {
+  width: 90%;
+}
+
+h2 {
+  font-size: 46px;
+  color: #333;
+}
+
+form {
+  width: 400px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 10px 50px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+span a {
+  font-size: 17px;
+}
+
+span a:hover {
+  color: #333;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#login {
+  padding-top: 50px;
+}
+
+#login h2 {
+  margin-bottom: 25px;
+}
+
+#email, #password, #filter, input.flat, textarea.flat {
+  width: 90%;
+  height: 50px;
+  padding-left: 17px;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid #dfdfdf;
+  font-size: 20px;
+  margin: 12px 0px;
+}
+
+textarea.flat {
+  height: 60px;
+}
+
+#filter {
+  width: 39.7%;
+  margin: 25px 0;
+}
+
+#email:focus, #password:focus, #filter:focus {
+  box-shadow: none;
+}
+
+.form-control:focus {
+  border-color: #0084ff;
+}
+
+button {
+  background-color: #1990ff;
+  border: 0;
+  border-radius: 3px;
+  color: white;
+  font-size: 20px;
+  outline: 0;
+  padding: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
+  width: 95%;
+  height: 53px;
+  margin-top: 12px;
+}
+
+#signup-btn, #create-btn {
+  background-color: #1990ff;
+  border: 0;
+  border-radius: 3px;
+  color: white;
+  font-size: 20px;
+  outline: 0;
+  padding: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
+  width: 95%;
+  height: 53px;
+  margin-top: 12px;
+}
+
+#create-btn {
+  width: 90%;
+}
+
+#adopt-region .form-control {
+  height: 35px;
+  padding-left: 11px;
+  font-size: 15px;
+}
+
+#adopt-region textarea.form-control {
+  height: 60px;
+}
+
+#adopt-region #create-btn {
+  height: 45px;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+#adopt-region input, .radio-inline {
+  font-size: 15px;
+}
+
+#upload-img {
+  position: relative;
+  left: 53px;
+  bottom: 20px;
+}
+
+#adopt-region span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+
+#upload-img-wrapper {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+#adopt-region h2 {
+  margin-top: 0px;
+}
+
+#about-region .text, #contact-region .text, #terms-region .text {
+  width: 600px;
+  margin-top: 25px;
+}
+
+#about-region, #contact-region, #terms-region {
+  margin-bottom: 65px;
+}
+
+#about-region h2, #contact-region h2, #terms-region h2 {
+  margin-bottom: 30px;
+}
+
+#signup-region {
+  font-size: 17px;
+}
+
+#signup-region .center a {
+  text-decoration: underline;
+  color: #333;
+}
+
+#signup-region footer {
+  margin-top: 20px;
+}
+
+a {
+  color: black;
+  padding: 5px;
+  position: relative;
+  font-weight: 400;
+  bottom: 1px;
+}
+
+a:visited {
+  color: black;
+}
+
+.footer-img {
+  margin-top: 22px;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  padding: 8px;
+  margin-right: -10px;
+}
+
+main {
+  margin-top: 90px;
+}
+
+nav {
+  color: white;
+  width: 100%;
+  background-color: #1990ff;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+ul {
+  width: 685px;
+  position: absolute;
+  top: -2px;
+  right: 0;
+}
+
+nav ul li {
+  font-size: 14px;
+  float: left;
+  margin: 18px;
+  letter-spacing: 2px;
+  list-style: none;
+}
+
+.action, .action:visited, .action:hover, .action:active {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+}
+
+h3 a, h3 a:visited, h3 a:hover {
+  color: white;
+  font-size: 34px;
+  font-weight: 200;
+  letter-spacing: 3px;
+  position: relative;
+  bottom: 16px;
+  margin-left: 80px;
+  text-decoration: none;
+}
+.btn-wrapper a {
+  margin-top: 10px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #0084ff;
+  color: #0084ff;
+  background-color: #f8f8f8;
+}
+
+.btn-wrapper a:hover {
+  background-color: #0084ff;
+  border: 1px solid #0084ff;
+  color: #fff;
+}
+
+.filter-selector {
+  font-size: 16px;
+  width: 120px;
+  margin-bottom: 25px;
+  margin-left: 8px;
+}
+
+.filter-header {
+  position: relative;
+  left: 2px;
+  font-weight: 500px;
+}
+
+.container {
+  padding-top: 3%;
+}

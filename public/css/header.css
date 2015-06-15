@@ -1,0 +1,67 @@
+nav {
+  color: white;
+  width: 100%;
+  background-color: #1990ff;
+  height: 58px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+nav ul li {
+  font-weight: 500;
+  font-size: 14px;
+  float: left;
+  margin: 18px;
+  letter-spacing: 2px;
+  list-style: none;
+}
+
+nav ul li a {
+  color: white;
+  font-weight: 400;
+}
+
+#nav-ul {
+  width: 746px;
+top: 3px;
+position: absolute;
+left: 50%;
+margin-left: -373px;
+padding-left: 22px;
+}
+
+a:hover, a:active, a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+h3 a, h3 a:visited, h3 a:hover {
+  color: white;
+  font-size: 34px;
+  font-weight: 200;
+  letter-spacing: 3px;
+  position: relative;
+  bottom: 9px;
+  margin-left: 80px;
+  text-decoration: none;
+}
+
+.log-in {
+  margin-right: 112px;
+}
+
+.button {
+  position: absolute;
+  right: 8px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 8px 12px;
+  padding-left: 14px;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 9px;
+}

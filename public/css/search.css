@@ -1,0 +1,147 @@
+body {
+  background-color: #f8f8f8;
+}
+
+td, th {
+    padding: 5px;
+}
+table {
+    margin-top: 10px;
+}
+
+a:hover, a:active, a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+.center {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.center-row {
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+
+.animal-card {
+  width: 180px;
+  border: 0px solid #dedede;
+  border-radius: 5px;
+  float: left;
+  margin: 20px;
+}
+
+.animal-card:hover {
+  cursor: pointer;
+}
+
+.animal-card-description {
+  height: 118px;
+  background-color: #fff;
+  padding-top: 17px;
+  padding-left: 4px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border: 2px solid #dedede;
+}
+
+.animal-card-species {
+  font-style: italic;
+}
+
+.animal-card-name {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.animal-card-child-bg-color {
+  background-color: #dedede;
+  border-radius: 4px;
+  padding: 2px 5px;
+}
+
+.animal-card img {
+  border-radius: 3px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+li {
+  list-style: none;
+  margin: 13px 0px;
+}
+
+ul {
+  margin-top: -16px;
+  margin-bottom: 10px;
+  margin-left: -33px;
+}
+
+#card-container {
+  border: 0px solid black;
+  width: 662px;
+  margin-top: 10px;
+}
+
+
+
+.footer-img {
+  margin-top: 22px;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  padding: 8px;
+  margin-right: -10px;
+}
+
+#filter {
+  width: 300px;
+  margin: 25px 0;
+}
+
+#email:focus, #password:focus, #filter:focus {
+  box-shadow: none;
+}
+
+.form-horizontal {
+  width: 816px;
+  border: 1px solid black;
+  margin-top: 80px;
+}
+
+.form-filter {
+  margin-top: 100px;
+  margin-bottom: 15px;
+}
+
+.form-filter select {
+  font-size: 16px;
+}
+
+#thead td {
+  font-weight: 500;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
+td {
+  padding: 6px 6px;
+}
+
+td button {
+  margin-top: 8px;
+}
+
+.btn-default {
+  padding: 2px 8px;
+  font-size: 15px;
+}

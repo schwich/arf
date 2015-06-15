@@ -1,0 +1,29 @@
+footer {
+  position: fixed;
+  left: 50%;
+  margin-left: -212px;
+  text-align: center;
+  bottom: 0;
+}
+
+.footer-img {
+  margin-top: 22px;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  padding: 8px;
+  margin-right: -10px;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.text-muted {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    clear:both;
+}
